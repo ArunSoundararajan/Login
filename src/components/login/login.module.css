@@ -1,0 +1,190 @@
+.login100form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #648ab1;
+    box-sizing: border-box;
+  }
+  .focus {
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(211,63,141, 0.6);
+  }
+  
+  .loginformmain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left : 0px;
+    padding-right : 51px;
+    padding-top : 7px;
+    padding-bottom : 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    box-sizing: border-box;
+  }
+  
+
+  
+  @font-face {
+    font-family: 'Raleway-Black';
+    src: local('Raleway-Black'), url(../assets/fonts/raleway/Raleway-Black.ttf) format('truetype');
+}
+  
+  .Login100formtitle {
+    font-family: Raleway-Black;
+    font-size: 30px;
+    color: #333333;
+    
+
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 55px;
+  }
+
+
+  .iconalign {
+    font-family: Linearicons-Free;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+
+  .symbol{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    padding-left: 23px;
+    padding-bottom: 5px;
+    pointer-events: none;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .focus {
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(211,63,141, 0.6);
+  }
+  .inputemail {
+    font-family: Raleway-SemiBold;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    width: 120%;
+    background: #a9ddda;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    height: 62px;
+    border: none;
+    padding: 0 30px 0px;
+  }
+  .inputemail:hover{
+    background: #f5f4f0;
+    
+  }
+  .wrapemail{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'Raleway-Bold';
+    src: local('Raleway-Bold'), url(../assets/fonts/raleway/Raleway-Bold.ttf) format('truetype');
+}
+.buttonOutline {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttonshape {
+    font-family: Raleway-Bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 62px;
+    border-radius: 3px;
+    background: #d33f8d;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+
+  
+  
+    .wraplogin100 {
+      width: 450px;
+      background: #fff;
+      border-radius: 3px;
+      overflow: hidden;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-bottom: 30px;
+      padding-top: 77px;
+    }
+    
+  
+    @media (max-width: 480px) {
+      .wrap-login100 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  
+  
